@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Iterable
 import pandas as pd
 
-from .model import Row
+from model import Row
 
 #NEEDS DEEPER COLUMNS
 COLUMNS = ["Section", "Title", "Letter", "Number", "Roman", "Caps", "Path", "Text"]

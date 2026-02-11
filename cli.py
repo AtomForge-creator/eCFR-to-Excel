@@ -3,10 +3,10 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from .config import ParseConfig
-from .parser import CFRParser
-from .writer import rows_to_excel
-from .loaders import load_text_file
+from config import ParseConfig
+from parser import CFRParser
+from writer import rows_to_excel
+from loaders import load_text_file
 
 '''Returns None because this is setting up parameters and settings. No output is expected from this function. Will have
 to modify after editing other sections in parser, model, config, and writer.'''

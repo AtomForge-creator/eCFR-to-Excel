@@ -4,10 +4,10 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from pathlib import Path
 
-from .config import ParseConfig
-from .parser import CFRParser
-from .writer import rows_to_excel
-from .loaders import (
+from config import ParseConfig
+from parser import CFRParser
+from writer import rows_to_excel
+from loaders import (
     load_text_file,
     load_html_file,
     load_html_url,

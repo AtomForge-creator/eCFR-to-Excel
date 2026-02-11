@@ -44,10 +44,10 @@ class ParseConfig:
 
         # (i), (ii), (iv)...
         if self.roman_lower_only:
-            if re.fullmatch(r"(?:i|v|x|l|c|d|m)+", tok):
+            if re.fullmatch(r"(?:i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii|xiii|xiv|xv|xvi|xvii|xviii|xix|xx)", tok):
                 return "roman", 3
         else:
-            if re.fullmatch(r"(?:i|v|x|l|c|d|m)+", tok, flags=re.IGNORECASE):
+            if re.fullmatch(r"(?:i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii|xiii|xiv|xv|xvi|xvii|xviii|xix|xx)", tok):
                 return "roman", 3
 
         # (A)
@@ -59,3 +59,6 @@ class ParseConfig:
             return "letter", 1
 
         return None, None
+    
+
+

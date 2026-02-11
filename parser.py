@@ -4,8 +4,8 @@ from dataclasses import dataclass
 from typing import List, Optional, Tuple
 import re
 
-from .config import ParseConfig
-from .model import Row
+from config import ParseConfig
+from model import Row
 
 
 class CFRParser:
