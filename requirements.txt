@@ -2,3 +2,4 @@ pandas
 openpyxl
 beautifulsoup4
 lxml
+requests

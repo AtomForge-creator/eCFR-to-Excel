@@ -14,3 +14,4 @@ def rows_to_excel(rows: Iterable[Row], outfile: str, sheet_name: str = "Sheet1")
 
     with pd.ExcelWriter(outfile, engine="openpyxl") as xl:
         df.to_excel(xl, index=False, sheet_name=sheet_name)
+        
